@@ -17,6 +17,18 @@ Endpoints
 1. Parse Query
 
 Endpoint: POST /api/query
+Description: Converts a natural language query into an SQL query.
+
+2. Explain Query
+
+Endpoint: GET /api/explain?query=SELECT * FROM users
+Description: Explains the given SQL query.
+
+3. Validate Query
+
+Endpoint: POST /api/validate
+Description: Checks if a given SQL query is valid.
+
 
 Description: Converts a natural language query into an SQL query.
 Project Structure
